@@ -9,10 +9,10 @@ FBXHeaderExtension:  {
 		Year: 2021
 		Month: 9
 		Day: 28
-		Hour: 17
-		Minute: 36
-		Second: 27
-		Millisecond: 505
+		Hour: 20
+		Minute: 0
+		Second: 22
+		Millisecond: 833
 	}
 	Creator: "FBX SDK/FBX Plugins version 2020.2.1"
 	OtherFlags:  {
@@ -78,7 +78,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 2332242828032, "My Scene", "Scene" {
+	Document: 2287562770000, "My Scene", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", ""
@@ -338,7 +338,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 2332242999936, "Geometry::Cube", "Mesh" {
+	Geometry: 2287565244256, "Geometry::Cube", "Mesh" {
 		Vertices: *72 {
 			a: -50,0,50,50,0,50,50,100,50,-50,100,50,50,0,50,50,0,-50,50,100,-50,50,100,50,50,0,-50,-50,0,-50,-50,100,-50,50,100,-50,-50,0,-50,-50,0,50,-50,100,50,-50,100,-50,-50,100,50,50,100,50,50,100,-50,-50,100,-50,50,0,50,-50,0,50,-50,0,-50,50,0,-50
 		} 
@@ -433,7 +433,7 @@ Objects:  {
 			}
 		}
 	}
-	Geometry: 2332243090800, "Geometry::Pyramid", "Mesh" {
+	Geometry: 2287565310640, "Geometry::Pyramid", "Mesh" {
 		Vertices: *48 {
 			a: -50,0,50,50,0,50,50,0,-50,-50,0,-50,-50,0,50,50,0,50,0,100,0,50,0,50,50,0,-50,0,100,0,50,0,-50,-50,0,-50,0,100,0,-50,0,-50,-50,0,50,0,100,0
 		} 
@@ -474,7 +474,7 @@ Objects:  {
 			}
 		}
 	}
-	Geometry: 2332243125808, "Geometry::Triangle", "Mesh" {
+	Geometry: 2287565317696, "Geometry::Triangle", "Mesh" {
 		Vertices: *9 {
 			a: -50,0,50,50,0,50,0,50,-50
 		} 
@@ -483,7 +483,7 @@ Objects:  {
 		} 
 		GeometryVersion: 124
 	}
-	Geometry: 2332243138672, "Geometry::CubeMyKFbxMesh", "MyKFbxMesh" {
+	Geometry: 2287565321616, "Geometry::CubeMyKFbxMesh", "MyKFbxMesh" {
 		Properties70:  {
 			P: "MyExtraPropertyBool", "bool", "", "",1
 			P: "MyExtraPropertyInteger", "int", "Integer", "",1
@@ -555,7 +555,7 @@ Objects:  {
 			}
 		}
 	}
-	Geometry: 2332243181472, "Geometry::Upside Down", "Shape" {
+	Geometry: 2287565444928, "Geometry::Upside Down", "Shape" {
 		Version: 100
 		Indexes: *16 {
 			a: 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
@@ -567,7 +567,7 @@ Objects:  {
 			a: 0,0,0,0,0,0,0,0,0,0,0,0,0,-0.894,0,0,-0.894,0,0,-0.894,0,0,-0.894,0,0,-0.894,0,0,-0.894,0,0,-0.894,0,0,-0.894,0,0,-0.894,0,0,-0.894,0,0,-0.894,0,0,-0.894,0
 		} 
 	}
-	Model: 2332243003408, "Model::Cube", "Mesh" {
+	Model: 2287565281232, "Model::Cube", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
@@ -577,7 +577,7 @@ Objects:  {
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Model: 2332243100912, "Model::Pyramid", "Mesh" {
+	Model: 2287565312928, "Model::Pyramid", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
@@ -587,7 +587,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2332243126912, "Model::Triangle", "Mesh" {
+	Model: 2287565318976, "Model::Triangle", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
@@ -597,7 +597,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2332243140464, "Model::CubeMyKFbxMesh", "MyKFbxMesh" {
+	Model: 2287565324320, "Model::CubeMyKFbxMesh", "MyKFbxMesh" {
 		Version: 232
 		Properties70:  {
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
@@ -607,7 +607,7 @@ Objects:  {
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Material: 2332243005552, "Material::toto", "" {
+	Material: 2287565283488, "Material::toto", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -627,7 +627,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2332243102896, "Material::material0", "" {
+	Material: 2287565314976, "Material::material0", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -644,7 +644,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2332243103376, "Material::material1", "" {
+	Material: 2287565315520, "Material::material1", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -661,7 +661,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2332243103856, "Material::material2", "" {
+	Material: 2287565316064, "Material::material2", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -678,7 +678,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2332243104336, "Material::material3", "" {
+	Material: 2287565316608, "Material::material3", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -695,7 +695,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2332243108928, "Material::material4", "" {
+	Material: 2287565317152, "Material::material4", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -712,7 +712,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2332243142448, "Material::material0", "" {
+	Material: 2287565359152, "Material::material0", "" {
 		Version: 102
 		ShadingModel: "lambert"
 		MultiLayer: 0
@@ -725,7 +725,7 @@ Objects:  {
 			P: "Opacity", "double", "Number", "",1
 		}
 	}
-	Material: 2332243142848, "Material::material1", "" {
+	Material: 2287565425184, "Material::material1", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -739,7 +739,7 @@ Objects:  {
 			P: "Opacity", "double", "Number", "",1
 		}
 	}
-	Material: 2332243143248, "Material::material2", "" {
+	Material: 2287565425648, "Material::material2", "" {
 		Version: 102
 		ShadingModel: "lambert"
 		MultiLayer: 0
@@ -752,7 +752,7 @@ Objects:  {
 			P: "Opacity", "double", "Number", "",1
 		}
 	}
-	Material: 2332243143648, "Material::material3", "" {
+	Material: 2287565426112, "Material::material3", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -766,7 +766,7 @@ Objects:  {
 			P: "Opacity", "double", "Number", "",1
 		}
 	}
-	Material: 2332243144048, "Material::material4", "" {
+	Material: 2287565444000, "Material::material4", "" {
 		Version: 102
 		ShadingModel: "lambert"
 		MultiLayer: 0
@@ -779,7 +779,7 @@ Objects:  {
 			P: "Opacity", "double", "Number", "",1
 		}
 	}
-	Material: 2332243146128, "Material::material5", "" {
+	Material: 2287565444464, "Material::material5", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -793,29 +793,29 @@ Objects:  {
 			P: "Opacity", "double", "Number", "",1
 		}
 	}
-	Deformer: 2332243190896, "Deformer::Triangle", "VertexCacheDeformer" {
+	Deformer: 2287565462944, "Deformer::Triangle", "VertexCacheDeformer" {
 		Version: 100
 		Properties70:  {
 			P: "ChannelName", "KString", "", "", "Triangle"
 		}
 	}
-	Deformer: 2332243191104, "Deformer::Triangle_normals", "VertexCacheDeformer" {
+	Deformer: 2287565458336, "Deformer::Triangle_normals", "VertexCacheDeformer" {
 		Version: 100
 		Properties70:  {
 			P: "ChannelName", "KString", "", "", "Triangle_normals"
 		}
 	}
-	Deformer: 2332243093680, "Deformer::", "BlendShape" {
+	Deformer: 2287565306160, "Deformer::", "BlendShape" {
 		Version: 100
 	}
-	Deformer: 2332243190512, "SubDeformer::", "BlendShapeChannel" {
+	Deformer: 2287565454704, "SubDeformer::", "BlendShapeChannel" {
 		Version: 100
 		DeformPercent: 0
 		FullWeights: *1 {
 			a: 100
 		} 
 	}
-	Video: 2332243586784, "Video::Diffuse Texture", "Clip" {
+	Video: 2287565321024, "Video::Diffuse Texture", "Clip" {
 		Type: "Clip"
 		Properties70:  {
 			P: "Path", "KString", "XRefUrl", "", "scene03.jpg"
@@ -825,7 +825,7 @@ Objects:  {
 		Filename: "scene03.jpg"
 		RelativeFilename: "scene03.jpg"
 	}
-	Video: 2332243587264, "Video::Ambient Texture", "Clip" {
+	Video: 2287565643024, "Video::Ambient Texture", "Clip" {
 		Type: "Clip"
 		Properties70:  {
 			P: "Path", "KString", "XRefUrl", "", "gradient.jpg"
@@ -835,7 +835,7 @@ Objects:  {
 		Filename: "gradient.jpg"
 		RelativeFilename: "gradient.jpg"
 	}
-	Video: 2332243626592, "Video::Emissive Texture", "Clip" {
+	Video: 2287565703088, "Video::Emissive Texture", "Clip" {
 		Type: "Clip"
 		Properties70:  {
 			P: "Path", "KString", "XRefUrl", "", "spotty.jpg"
@@ -845,7 +845,7 @@ Objects:  {
 		Filename: "spotty.jpg"
 		RelativeFilename: "spotty.jpg"
 	}
-	Texture: 2332243039856, "Texture::Diffuse Texture", "" {
+	Texture: 2287565300432, "Texture::Diffuse Texture", "" {
 		Type: "TextureVideoClip"
 		Version: 202
 		TextureName: "Texture::Diffuse Texture"
@@ -861,7 +861,7 @@ Objects:  {
 		Texture_Alpha_Source: "None"
 		Cropping: 0,0,0,0
 	}
-	Texture: 2332243056896, "Texture::Ambient Texture", "" {
+	Texture: 2287565301168, "Texture::Ambient Texture", "" {
 		Type: "TextureVideoClip"
 		Version: 202
 		TextureName: "Texture::Ambient Texture"
@@ -877,7 +877,7 @@ Objects:  {
 		Texture_Alpha_Source: "None"
 		Cropping: 0,0,0,0
 	}
-	Texture: 2332243090160, "Texture::Emissive Texture", "" {
+	Texture: 2287565301696, "Texture::Emissive Texture", "" {
 		Type: "TextureVideoClip"
 		Version: 202
 		TextureName: "Texture::Emissive Texture"
@@ -893,7 +893,7 @@ Objects:  {
 		Texture_Alpha_Source: "None"
 		Cropping: 0,0,0,0
 	}
-	Cache: 2332243190672, "Cache::Triangle", "" {
+	Cache: 2287565455088, "Cache::Triangle", "" {
 		Version: 100
 		Properties70:  {
 			P: "CacheFileName", "KString", "", "", "ExportScene03_MC_fpc\Triangle.xml"
@@ -901,9 +901,9 @@ Objects:  {
 			P: "CacheFileType", "enum", "", "",2
 		}
 	}
-	AnimationStack: 2332243191856, "AnimStack::Show all faces", "" {
+	AnimationStack: 2287565464496, "AnimStack::Show all faces", "" {
 	}
-	AnimationCurve: 2332243090640, "AnimCurve::", "" {
+	AnimationCurve: 2287565302224, "AnimCurve::", "" {
 		Default: 0
 		KeyVer: 4009
 		KeyTime: *3 {
@@ -924,7 +924,7 @@ Objects:  {
 			a: 1,1,1
 		} 
 	}
-	AnimationCurve: 2332243192816, "AnimCurve::", "" {
+	AnimationCurve: 2287565534960, "AnimCurve::", "" {
 		Default: 0
 		KeyVer: 4009
 		KeyTime: *5 {
@@ -945,7 +945,7 @@ Objects:  {
 			a: 1,1,1,1,1
 		} 
 	}
-	AnimationCurve: 2332243193248, "AnimCurve::", "" {
+	AnimationCurve: 2287565606128, "AnimCurve::", "" {
 		Default: 0
 		KeyVer: 4009
 		KeyTime: *4 {
@@ -966,7 +966,7 @@ Objects:  {
 			a: 1,1,1,1
 		} 
 	}
-	AnimationCurve: 2332243564768, "AnimCurve::", "" {
+	AnimationCurve: 2287565615840, "AnimCurve::", "" {
 		Default: 0
 		KeyVer: 4009
 		KeyTime: *5 {
@@ -987,7 +987,7 @@ Objects:  {
 			a: 1,1,1,1,1
 		} 
 	}
-	AnimationCurve: 2332243566240, "AnimCurve::", "" {
+	AnimationCurve: 2287565617344, "AnimCurve::", "" {
 		Default: 0
 		KeyVer: 4009
 		KeyTime: *4 {
@@ -1008,7 +1008,7 @@ Objects:  {
 			a: 1,1,1,1
 		} 
 	}
-	AnimationCurve: 2332243567712, "AnimCurve::", "" {
+	AnimationCurve: 2287565619344, "AnimCurve::", "" {
 		Default: 0
 		KeyVer: 4009
 		KeyTime: *3 {
@@ -1029,7 +1029,7 @@ Objects:  {
 			a: 1,1,1
 		} 
 	}
-	AnimationCurve: 2332243583296, "AnimCurve::", "" {
+	AnimationCurve: 2287565619968, "AnimCurve::", "" {
 		Default: 0
 		KeyVer: 4009
 		KeyTime: *5 {
@@ -1050,7 +1050,7 @@ Objects:  {
 			a: 1,1,1,1,1
 		} 
 	}
-	AnimationCurve: 2332243584496, "AnimCurve::", "" {
+	AnimationCurve: 2287565619136, "AnimCurve::", "" {
 		Default: 0
 		KeyVer: 4009
 		KeyTime: *4 {
@@ -1071,40 +1071,40 @@ Objects:  {
 			a: 1,1,1,1
 		} 
 	}
-	AnimationCurveNode: 2332243192336, "AnimCurveNode::MyAnimatedPropertyName", "" {
+	AnimationCurveNode: 2287565457568, "AnimCurveNode::MyAnimatedPropertyName", "" {
 		Properties70:  {
 			P: "d|MyAnimatedPropertyName", "Number", "", "A",0
 		}
 	}
-	AnimationCurveNode: 2332243480448, "AnimCurveNode::R", "" {
+	AnimationCurveNode: 2287565458080, "AnimCurveNode::R", "" {
 		Properties70:  {
 			P: "d|X", "Number", "", "A",0
 			P: "d|Y", "Number", "", "A",0
 			P: "d|Z", "Number", "", "A",0
 		}
 	}
-	AnimationCurveNode: 2332243479616, "AnimCurveNode::R", "" {
+	AnimationCurveNode: 2287565456800, "AnimCurveNode::R", "" {
 		Properties70:  {
 			P: "d|X", "Number", "", "A",0
 			P: "d|Y", "Number", "", "A",0
 			P: "d|Z", "Number", "", "A",0
 		}
 	}
-	AnimationCurveNode: 2332243478160, "AnimCurveNode::DeformPercent", "" {
+	AnimationCurveNode: 2287565461408, "AnimCurveNode::DeformPercent", "" {
 		Properties70:  {
 			P: "d|DeformPercent", "Number", "", "A",0
 		}
 	}
-	AnimationCurveNode: 2332243479408, "AnimCurveNode::R", "" {
+	AnimationCurveNode: 2287565457056, "AnimCurveNode::R", "" {
 		Properties70:  {
 			P: "d|X", "Number", "", "A",0
 			P: "d|Y", "Number", "", "A",0
 			P: "d|Z", "Number", "", "A",0
 		}
 	}
-	AnimationLayer: 2332243192064, "AnimLayer::Base Layer", "" {
+	AnimationLayer: 2287565532080, "AnimLayer::Base Layer", "" {
 	}
-	MyFbxObjectType: 2332243148560, "MyFbxObject 1", "MyFbxObject" {
+	MyFbxObjectType: 2287565310000, "MyFbxObject 1", "MyFbxObject" {
 	}
 }
 
@@ -1114,163 +1114,163 @@ Objects:  {
 Connections:  {
 	
 	;Model::Cube, Model::RootNode
-	C: "OO",2332243003408,0
+	C: "OO",2287565281232,0
 	
 	;Model::Pyramid, Model::RootNode
-	C: "OO",2332243100912,0
+	C: "OO",2287565312928,0
 	
 	;Model::CubeMyKFbxMesh, Model::RootNode
-	C: "OO",2332243140464,0
+	C: "OO",2287565324320,0
 	
 	;Model::Triangle, Model::RootNode
-	C: "OO",2332243126912,0
+	C: "OO",2287565318976,0
 	
 	;MyFbxObject 1, Model::RootNode
-	C: "OO",2332243148560,0
+	C: "OO",2287565310000,0
 	
 	;Geometry::Cube, Model::Cube
-	C: "OO",2332242999936,2332243003408
+	C: "OO",2287565244256,2287565281232
 	
 	;Material::toto, Model::Cube
-	C: "OO",2332243005552,2332243003408
+	C: "OO",2287565283488,2287565281232
 	
 	;AnimCurveNode::R, Model::Cube
-	C: "OP",2332243480448,2332243003408, "Lcl Rotation"
+	C: "OP",2287565458080,2287565281232, "Lcl Rotation"
 	
 	;Texture::Emissive Texture, Material::toto
-	C: "OP",2332243090160,2332243005552, "EmissiveColor"
+	C: "OP",2287565301696,2287565283488, "EmissiveColor"
 	
 	;Texture::Ambient Texture, Material::toto
-	C: "OP",2332243056896,2332243005552, "AmbientColor"
+	C: "OP",2287565301168,2287565283488, "AmbientColor"
 	
 	;Texture::Diffuse Texture, Material::toto
-	C: "OP",2332243039856,2332243005552, "DiffuseColor"
+	C: "OP",2287565300432,2287565283488, "DiffuseColor"
 	
 	;Video::Diffuse Texture, Texture::Diffuse Texture
-	C: "OO",2332243586784,2332243039856
+	C: "OO",2287565321024,2287565300432
 	
 	;Video::Ambient Texture, Texture::Ambient Texture
-	C: "OO",2332243587264,2332243056896
+	C: "OO",2287565643024,2287565301168
 	
 	;Video::Emissive Texture, Texture::Emissive Texture
-	C: "OO",2332243626592,2332243090160
+	C: "OO",2287565703088,2287565301696
 	
 	;Deformer::, Geometry::Pyramid
-	C: "OO",2332243093680,2332243090800
+	C: "OO",2287565306160,2287565310640
 	
 	;Geometry::Pyramid, Model::Pyramid
-	C: "OO",2332243090800,2332243100912
+	C: "OO",2287565310640,2287565312928
 	
 	;Material::material0, Model::Pyramid
-	C: "OO",2332243102896,2332243100912
+	C: "OO",2287565314976,2287565312928
 	
 	;Material::material1, Model::Pyramid
-	C: "OO",2332243103376,2332243100912
+	C: "OO",2287565315520,2287565312928
 	
 	;Material::material2, Model::Pyramid
-	C: "OO",2332243103856,2332243100912
+	C: "OO",2287565316064,2287565312928
 	
 	;Material::material3, Model::Pyramid
-	C: "OO",2332243104336,2332243100912
+	C: "OO",2287565316608,2287565312928
 	
 	;Material::material4, Model::Pyramid
-	C: "OO",2332243108928,2332243100912
+	C: "OO",2287565317152,2287565312928
 	
 	;AnimCurveNode::R, Model::Pyramid
-	C: "OP",2332243479616,2332243100912, "Lcl Rotation"
+	C: "OP",2287565456800,2287565312928, "Lcl Rotation"
 	
 	;Deformer::Triangle, Geometry::Triangle
-	C: "OO",2332243190896,2332243125808
+	C: "OO",2287565462944,2287565317696
 	
 	;Deformer::Triangle_normals, Geometry::Triangle
-	C: "OO",2332243191104,2332243125808
+	C: "OO",2287565458336,2287565317696
 	
 	;Geometry::Triangle, Model::Triangle
-	C: "OO",2332243125808,2332243126912
+	C: "OO",2287565317696,2287565318976
 	
 	;Geometry::CubeMyKFbxMesh, Model::CubeMyKFbxMesh
-	C: "OO",2332243138672,2332243140464
+	C: "OO",2287565321616,2287565324320
 	
 	;Material::material0, Model::CubeMyKFbxMesh
-	C: "OO",2332243142448,2332243140464
+	C: "OO",2287565359152,2287565324320
 	
 	;Material::material1, Model::CubeMyKFbxMesh
-	C: "OO",2332243142848,2332243140464
+	C: "OO",2287565425184,2287565324320
 	
 	;Material::material2, Model::CubeMyKFbxMesh
-	C: "OO",2332243143248,2332243140464
+	C: "OO",2287565425648,2287565324320
 	
 	;Material::material3, Model::CubeMyKFbxMesh
-	C: "OO",2332243143648,2332243140464
+	C: "OO",2287565426112,2287565324320
 	
 	;Material::material4, Model::CubeMyKFbxMesh
-	C: "OO",2332243144048,2332243140464
+	C: "OO",2287565444000,2287565324320
 	
 	;Material::material5, Model::CubeMyKFbxMesh
-	C: "OO",2332243146128,2332243140464
+	C: "OO",2287565444464,2287565324320
 	
 	;AnimCurveNode::R, Model::CubeMyKFbxMesh
-	C: "OP",2332243479408,2332243140464, "Lcl Rotation"
+	C: "OP",2287565457056,2287565324320, "Lcl Rotation"
 	
 	;AnimCurveNode::MyAnimatedPropertyName, MyFbxObject 1
-	C: "OP",2332243192336,2332243148560, "MyAnimatedPropertyName"
+	C: "OP",2287565457568,2287565310000, "MyAnimatedPropertyName"
 	
 	;SubDeformer::, Deformer::
-	C: "OO",2332243190512,2332243093680
+	C: "OO",2287565454704,2287565306160
 	
 	;Geometry::Upside Down, SubDeformer::
-	C: "OO",2332243181472,2332243190512
+	C: "OO",2287565444928,2287565454704
 	
 	;AnimCurveNode::DeformPercent, SubDeformer::
-	C: "OP",2332243478160,2332243190512, "DeformPercent"
+	C: "OP",2287565461408,2287565454704, "DeformPercent"
 	
 	;Cache::Triangle, Deformer::Triangle
-	C: "OO",2332243190672,2332243190896
+	C: "OO",2287565455088,2287565462944
 	
 	;Cache::Triangle, Deformer::Triangle_normals
-	C: "OO",2332243190672,2332243191104
+	C: "OO",2287565455088,2287565458336
 	
 	;AnimLayer::Base Layer, AnimStack::Show all faces
-	C: "OO",2332243192064,2332243191856
+	C: "OO",2287565532080,2287565464496
 	
 	;AnimCurveNode::MyAnimatedPropertyName, AnimLayer::Base Layer
-	C: "OO",2332243192336,2332243192064
+	C: "OO",2287565457568,2287565532080
 	
 	;AnimCurveNode::R, AnimLayer::Base Layer
-	C: "OO",2332243480448,2332243192064
+	C: "OO",2287565458080,2287565532080
 	
 	;AnimCurveNode::R, AnimLayer::Base Layer
-	C: "OO",2332243479616,2332243192064
+	C: "OO",2287565456800,2287565532080
 	
 	;AnimCurveNode::DeformPercent, AnimLayer::Base Layer
-	C: "OO",2332243478160,2332243192064
+	C: "OO",2287565461408,2287565532080
 	
 	;AnimCurveNode::R, AnimLayer::Base Layer
-	C: "OO",2332243479408,2332243192064
+	C: "OO",2287565457056,2287565532080
 	
 	;AnimCurve::, AnimCurveNode::MyAnimatedPropertyName
-	C: "OP",2332243090640,2332243192336, "d|MyAnimatedPropertyName"
+	C: "OP",2287565302224,2287565457568, "d|MyAnimatedPropertyName"
 	
 	;AnimCurve::, AnimCurveNode::R
-	C: "OP",2332243193248,2332243480448, "d|X"
+	C: "OP",2287565606128,2287565458080, "d|X"
 	
 	;AnimCurve::, AnimCurveNode::R
-	C: "OP",2332243192816,2332243480448, "d|Y"
+	C: "OP",2287565534960,2287565458080, "d|Y"
 	
 	;AnimCurve::, AnimCurveNode::R
-	C: "OP",2332243566240,2332243479616, "d|X"
+	C: "OP",2287565617344,2287565456800, "d|X"
 	
 	;AnimCurve::, AnimCurveNode::R
-	C: "OP",2332243564768,2332243479616, "d|Y"
+	C: "OP",2287565615840,2287565456800, "d|Y"
 	
 	;AnimCurve::, AnimCurveNode::DeformPercent
-	C: "OP",2332243567712,2332243478160, "d|DeformPercent"
+	C: "OP",2287565619344,2287565461408, "d|DeformPercent"
 	
 	;AnimCurve::, AnimCurveNode::R
-	C: "OP",2332243584496,2332243479408, "d|X"
+	C: "OP",2287565619136,2287565457056, "d|X"
 	
 	;AnimCurve::, AnimCurveNode::R
-	C: "OP",2332243583296,2332243479408, "d|Y"
+	C: "OP",2287565619968,2287565457056, "d|Y"
 }
 ;Takes section
 ;----------------------------------------------------

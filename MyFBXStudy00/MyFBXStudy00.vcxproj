@@ -146,12 +146,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Common.cxx" />
+    <ClCompile Include="ExportScene03.cpp" />
     <ClCompile Include="MyFBXStudy00.cpp" />
     <ClCompile Include="MyKFbxMesh.cxx" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Common.h" />
     <ClInclude Include="D:\Autodesk\FBX\FBX SDK\2019.0\samples\ExportScene03\MyKFbxMesh.h" />
+    <ClInclude Include="ExportScene03.h" />
     <ClInclude Include="MyKFbxMesh.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

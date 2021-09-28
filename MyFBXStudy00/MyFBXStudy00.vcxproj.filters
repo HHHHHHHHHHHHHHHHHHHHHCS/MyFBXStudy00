@@ -24,6 +24,9 @@
     <ClCompile Include="MyKFbxMesh.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ExportScene03.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="D:\Autodesk\FBX\FBX SDK\2019.0\samples\ExportScene03\MyKFbxMesh.h">
@@ -33,6 +36,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="MyKFbxMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExportScene03.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
