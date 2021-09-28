@@ -1281,7 +1281,7 @@ void AnimateVertexCacheOnTriangleDoubleVertex(FbxNode* pTriangle, double pFrameR
 
     unsigned int lFrameCount = (unsigned int)(lStopTime.Get() / lTimeIncrement.Get());
     FbxStatus lStatus;
-    unsigned int lNormalChannelIndex;
+    unsigned int lNormalChannelIndex = 0;
 
     // Open the file for writing
     if (gExportVertexCacheMCFormat)
@@ -1480,7 +1480,7 @@ void AnimateVertexCacheOnTriangleFloat(FbxNode* pTriangle, double pFrameRate)
     lTimeIncrement.SetTime(0, 0, 0, 1); // 1 frame @ current frame rate
     lStopTime.SetTime(0, 0, 4);         // 4 seconds
     FbxStatus lStatus;
-    unsigned int lNormalChannelIndex;
+    unsigned int lNormalChannelIndex = 0;
 
     // Open the file for writing
     if (gExportVertexCacheMCFormat)
